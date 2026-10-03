@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wiam Hamadi — Data science · Intelligence artificielle</title>
+  <meta name="description" content="Entre des données brutes et une décision éclairée, il y a du nettoyage, des modèles et une saine dose de scepticisme. Je m'occupe des trois.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;1,9..40,400&family=Fraunces:ital,opsz,wght@0,9..144,500;1,9..144,500&display=swap">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+
+  <!-- ===================== NAVIGATION ===================== -->
+  <header class="site-header">
+    <nav class="nav" aria-label="Navigation principale">
+      <a class="monogram" href="#accueil" aria-label="Wiam Hamadi, retour en haut">WH</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu" hidden>
+        <svg class="icon icon-open" aria-hidden="true" viewBox="0 0 24 24"><path d="M4 6l16 0"/><path d="M4 12l16 0"/><path d="M4 18l16 0"/></svg>
+        <svg class="icon icon-close" aria-hidden="true" viewBox="0 0 24 24"><path d="M18 6l-12 12"/><path d="M6 6l12 12"/></svg>
+        <span class="visually-hidden">Menu</span>
+      </button>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#a-propos">À propos</a></li>
+        <li><a href="#experiences">Expériences</a></li>
+        <li><a href="#projets">Projets</a></li>
+        <li><a href="#stack">Stack</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="contenu">
+
+    <!-- ===================== ACCUEIL ===================== -->
+    <section id="accueil" class="hero">
+      <div class="wrap">
+        <p class="label">Data science · Intelligence artificielle · Analyse — Québec</p>
+        <h1>Wiam Hamadi</h1>
+        <p class="hero-lead">Entre des données brutes et une décision éclairée, il y a du nettoyage, des modèles et une saine dose de scepticisme. Je m'occupe des trois.</p>
+
+        <ul class="markers">
+          <li>
+            <span class="marker-title">Maîtrise en IA + ingénieure</span>
+            <span class="marker-sub">Laval · INSEA</span>
+          </li>
+          <li>
+            <span class="marker-title">Article publié</span>
+            <span class="marker-sub">Co-auteure · 2026</span>
+          </li>
+          <li>
+            <span class="marker-title">Trilingue</span>
+            <span class="marker-sub">FR · EN · AR</span>
+          </li>
+        </ul>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projets">Voir les projets</a>
+          <a class="btn btn-secondary" href="assets/CV_Wiam_Hamadi.pdf" download>Télécharger le CV</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 01 — À PROPOS ===================== -->
+    <section id="a-propos" class="section" aria-labelledby="a-propos-titre">
+      <div class="wrap about">
+        <div class="about-left">
+          <p class="about-num" aria-hidden="true">01</p>
+          <h2 id="a-propos-titre" class="about-title">À propos</h2>
+
+          <div class="card anim-card">
+            <svg class="signal-anim" viewBox="0 0 320 200" role="img" aria-labelledby="anim-titre anim-desc">
+              <title id="anim-titre">Des données brutes au signal</title>
+              <desc id="anim-desc">Animation : une courbe se dessine progressivement pendant qu'une dizaine de points, d'abord dispersés, viennent s'aligner sur elle. L'étiquette « données brutes » s'efface et laisse place à l'étiquette « signal ».</desc>
+              <path class="anim-curve" d="M20 150 C130 150 170 50 300 50" pathLength="1"/>
+              <g class="anim-dots">
+                <circle cx="36.0" cy="149.3" r="4.5" style="--dx:-6px;--dy:-70px"/>
+                <circle cx="65.3" cy="143.9" r="4.5" style="--dx:28px;--dy:-40px"/>
+                <circle cx="91.9" cy="134.4" r="4.5" style="--dx:-30px;--dy:52px"/>
+                <circle cx="116.6" cy="121.8" r="4.5" style="--dx:20px;--dy:60px"/>
+                <circle cx="140.6" cy="107.5" r="4.5" style="--dx:-24px;--dy:-58px"/>
+                <circle cx="164.6" cy="92.5" r="4.5" style="--dx:34px;--dy:48px"/>
+                <circle cx="189.7" cy="78.2" r="4.5" style="--dx:-40px;--dy:62px"/>
+                <circle cx="216.9" cy="65.6" r="4.5" style="--dx:10px;--dy:70px"/>
+                <circle cx="247.0" cy="56.1" r="4.5" style="--dx:-32px;--dy:30px"/>
+                <circle cx="281.2" cy="50.7" r="4.5" style="--dx:26px;--dy:-28px"/>
+              </g>
+              <text class="anim-label anim-label--raw" x="300" y="186" text-anchor="end">données brutes</text>
+              <text class="anim-label anim-label--signal" x="300" y="186" text-anchor="end">signal</text>
+            </svg>
+          </div>
+        </div>
+
+        <div class="about-text">
+          <p>Formée en intelligence artificielle (maîtrise, Université Laval) et comme ingénieure en science des données (INSEA), j'accompagne les données sur l'ensemble de leur parcours : de leur structuration à la construction des modèles, jusqu'aux décisions qu'elles éclairent.</p>
+          <p>Au-delà des outils, c'est une posture qui guide mon travail : j'interroge les données avec rigueur, et je leur laisse le dernier mot, même lorsqu'il contredit mes hypothèses.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 02 — EXPÉRIENCES ===================== -->
+    <section id="experiences" class="section" aria-labelledby="experiences-titre">
+      <div class="wrap">
+        <h2 id="experiences-titre" class="label">02 — Expériences</h2>
+
+        <ol class="xp-list">
+          <!-- Entrée 1 : INAF -->
+          <li class="xp xp--plum">
+            <div class="xp-grid">
+              <div class="xp-body">
+                <p class="meta">2024 – 2025 · Stage de recherche · INAF, Université Laval</p>
+                <h3>Composition nutritionnelle des aliments emballés</h3>
+                <ul class="tasks">
+                  <li><strong>Conception de bout en bout du pipeline</strong> au cœur de l'étude : une méthode qui reconstitue le profil nutritionnel complet d'un aliment à partir de sa seule étiquette, une capacité jusque-là absente des outils disponibles au Canada.</li>
+                  <li><strong>Automatisation par NLP (FoodBERT)</strong> de l'appariement des ingrédients avec la base nutritionnelle de Santé Canada, une tâche auparavant réalisée manuellement, désormais applicable à grande échelle.</li>
+                  <li><strong>Développement d'un modèle d'optimisation</strong> sous contraintes réglementaires (Pyomo) capable de retrouver les proportions des ingrédients, que les fabricants ne divulguent pas.</li>
+                  <li><strong>Valorisation des résultats</strong> auprès d'intervenants non spécialistes, et co-auteure de l'article publié.</li>
+                </ul>
+                <ul class="pills" aria-label="Étiquettes">
+                  <li>IA (NLP)</li>
+                  <li>Optimisation</li>
+                  <li>Analyse des résultats</li>
+                </ul>
+                <p class="tools"><span class="tools-label">Outils</span> Python · spaCy · Transformers (FoodBERT) · Pyomo · IPOPT</p>
+                <p class="xp-link"><a href="https://doi.org/10.1016/j.cdnut.2026.109387" target="_blank" rel="noopener">Lire l'article (co-auteure, 2026) <span aria-hidden="true">↗</span><span class="visually-hidden"> (nouvel onglet)</span></a></p>
+              </div>
+
+              <div class="card key-figure">
+                <p class="key-number">75&nbsp;%+</p>
+                <p class="key-text">des produits estimés dans la tolérance de Santé Canada</p>
+              </div>
+            </div>
+          </li>
+
+          <!-- Entrée 2 : 3D Smart Factory -->
+          <li class="xp xp--gold">
+            <div class="xp-body">
+              <p class="meta">2023 · Stage · 3D Smart Factory, Maroc</p>
+              <h3>Lecture automatisée de plans mécaniques</h3>
+              <ul class="tasks">
+                <li><strong>Automatisation de la lecture des plans techniques</strong> : là où un employé analysait manuellement chaque plan reçu, le système extrait directement toutes les informations nécessaires à la fabrication.</li>
+                <li><strong>Développement des algorithmes de vision par ordinateur</strong> qui détectent et reconnaissent les symboles, les dimensions et les composants mécaniques (écrous et autres pièces) représentés sur les plans.</li>
+                <li><strong>Combinaison d'apprentissage supervisé et non supervisé</strong> (clustering) pour identifier et regrouper les motifs récurrents.</li>
+                <li><strong>Système conçu pour s'intégrer</strong> au processus de production de l'entreprise, au service du contrôle qualité.</li>
+              </ul>
+              <ul class="pills" aria-label="Étiquettes">
+                <li>Vision par ordinateur</li>
+                <li>Machine learning</li>
+                <li>Automatisation</li>
+              </ul>
+              <p class="tools"><span class="tools-label">Outils</span> Python · OpenCV · scikit-learn</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===================== 03 — PROJETS ===================== -->
+    <section id="projets" class="section" aria-labelledby="projets-titre">
+      <div class="wrap">
+        <h2 id="projets-titre" class="label">03 — Projets</h2>
+
+        <article class="card project">
+          <p class="meta meta--caps">Projet personnel · 2026</p>
+          <h3>Prédire l'engagement sur Instagram</h3>
+          <ul class="pills" aria-label="Étiquettes">
+            <li>IA multimodale</li>
+            <li>Data science</li>
+            <li>Analyse critique</li>
+          </ul>
+
+          <h4 class="label label--small">La question</h4>
+          <p class="question">Le contenu d'une publication suffit-il à prédire sa performance ?</p>
+
+          <h4 class="label label--small">Ce que j'ai fait</h4>
+          <p class="project-text">J'ai constitué un jeu de données original de plus de 4 000 publications issues de 29 comptes, collectées via l'API Instagram Graph (Business Discovery). Chaque publication est représentée par trois familles de variables : l'image, encodée avec CLIP, le texte, encodé avec un modèle d'embeddings multilingue (choisi après avoir mesuré que le modèle anglophone ne distinguait rien sur les légendes arabes), et le moment de publication, encodé de façon cyclique. Une première modélisation sur les interactions brutes (Random Forest, XGBoost, LightGBM) n'a pas battu une simple régression sur le nombre d'abonnés : j'ai donc reformulé la cible en performance relative au compte, comparée à la médiane de ses publications précédentes, et ajouté un modèle Ridge avec réduction PCA. La validation croisée est groupée par compte, pour tester le modèle sur des comptes jamais vus ; elle m'a permis de détecter et de corriger une fuite temporelle dans le centrage des embeddings, qui utilisait des publications futures. Résultat : un signal réel mais faible (AUC de 0,53 contre 0,50 pour le hasard), l'essentiel de la variance s'expliquant par la diffusion algorithmique. L'application Streamlit présente donc une tendance plutôt qu'un chiffre trompeur.</p>
+
+          <h4 class="label label--small">Limites et prochaines étapes</h4>
+          <ul class="limits">
+            <li>Échantillon biaisé vers les grands comptes (seulement 4 comptes de moins de 1 000 abonnés) <span class="next">→ élargir la collecte aux petits comptes.</span></li>
+            <li>Vidéos et carrousels partiellement analysés : seule la miniature des vidéos et la première image des carrousels sont prises en compte <span class="next">→ extraire plusieurs images par vidéo et toutes les images des carrousels.</span></li>
+            <li>Publications sans « j'aime » visibles (14&nbsp;% des données, 29&nbsp;% pour le thème écriture) <span class="next">→ étudier d'autres indicateurs d'engagement, comme les commentaires.</span></li>
+            <li>Prédiction sur un nouveau compte : sans historique, le centrage se fait sur une moyenne globale, ce qui fait passer l'AUC de 0,530 à 0,524 <span class="next">→ permettre à l'utilisateur de fournir ses publications passées.</span></li>
+          </ul>
+
+          <h4 class="label label--small">En un coup d'œil</h4>
+          <ol class="flow" aria-label="Schéma du projet">
+            <li class="flow-step">Collecte API</li>
+            <li class="flow-step">Image · texte · temps</li>
+            <li class="flow-step">Modèle</li>
+            <li class="flow-step flow-step--end">App Streamlit</li>
+          </ol>
+
+          <!-- TODO: sous-partie « APERÇU » masquée tant que les 3 captures ne sont pas fournies
+               ([CAPTURE PAGE PRÉDIRE], [CAPTURE PAGE EXPLORER], [CAPTURE PAGE LIMITES]).
+               Déposer les images dans assets/, compléter les noms de fichiers et les textes alternatifs, puis décommenter :
+
+          <h4 class="label label--small">Aperçu</h4>
+          <ul class="gallery">
+            <li><a class="shot" href="assets/capture-predire.png"><img src="assets/capture-predire.png" alt="Capture de la page Prédire de l'application : …" loading="lazy"></a></li>
+            <li><a class="shot" href="assets/capture-explorer.png"><img src="assets/capture-explorer.png" alt="Capture de la page Explorer de l'application : …" loading="lazy"></a></li>
+            <li><a class="shot" href="assets/capture-limites.png"><img src="assets/capture-limites.png" alt="Capture de la page Limites de l'application : …" loading="lazy"></a></li>
+          </ul>
+          -->
+
+          <p class="tools"><span class="tools-label">Outils</span> Python · API Instagram Graph · CLIP · Sentence-Transformers · scikit-learn · XGBoost · LightGBM · Streamlit</p>
+
+          <p class="project-actions">
+            <a class="btn btn-secondary" href="https://github.com/Wiamhamadi-ia/instagram-engagement-predictor" target="_blank" rel="noopener">Voir le code sur GitHub <span aria-hidden="true">↗</span><span class="visually-hidden"> (nouvel onglet)</span></a>
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===================== 04 — STACK ===================== -->
+    <section id="stack" class="section" aria-labelledby="stack-titre">
+      <div class="wrap">
+        <h2 id="stack-titre" class="label">04 — Stack</h2>
+
+        <div class="stack-grid">
+          <div class="card stack-card">
+            <span class="icon-box" aria-hidden="true">
+              <svg class="icon" viewBox="0 0 24 24"><path d="M7 8l-4 4l4 4"/><path d="M17 8l4 4l-4 4"/><path d="M14 4l-4 16"/></svg>
+            </span>
+            <h3>Langages</h3>
+            <ul class="pills">
+              <li>Python</li>
+              <li>SQL</li>
+              <li>R</li>
+            </ul>
+          </div>
+
+          <div class="card stack-card">
+            <span class="icon-box" aria-hidden="true">
+              <svg class="icon" viewBox="0 0 24 24"><path d="M15.5 13a3.5 3.5 0 0 0 -3.5 3.5v1a3.5 3.5 0 0 0 7 0v-1.8"/><path d="M8.5 13a3.5 3.5 0 0 1 3.5 3.5v1a3.5 3.5 0 0 1 -7 0v-1.8"/><path d="M17.5 16a3.5 3.5 0 0 0 0 -7h-.5"/><path d="M19 9.3v-2.8a3.5 3.5 0 0 0 -7 0"/><path d="M6.5 16a3.5 3.5 0 0 1 0 -7h.5"/><path d="M5 9.3v-2.8a3.5 3.5 0 0 1 7 0v10"/></svg>
+            </span>
+            <h3>Intelligence artificielle</h3>
+            <ul class="pills">
+              <li>Machine learning</li>
+              <li>Deep learning</li>
+              <li>NLP</li>
+              <li>Vision par ordinateur</li>
+              <li>LLM</li>
+            </ul>
+          </div>
+
+          <div class="card stack-card">
+            <span class="icon-box" aria-hidden="true">
+              <svg class="icon" viewBox="0 0 24 24"><path d="M4 6a8 3 0 1 0 16 0a8 3 0 1 0 -16 0"/><path d="M4 6v6a8 3 0 0 0 16 0v-6"/><path d="M4 12v6a8 3 0 0 0 16 0v-6"/></svg>
+            </span>
+            <h3>Données, analyse et visualisation</h3>
+            <ul class="pills">
+              <li>Analyse statistique</li>
+              <li>PostgreSQL</li>
+              <li>Power BI</li>
+              <li>Streamlit</li>
+              <li>Git</li>
+              <li>Docker</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 05 — CONTACT ===================== -->
+    <section id="contact" class="contact" aria-labelledby="contact-titre">
+      <div class="wrap contact-grid">
+        <div class="contact-left">
+          <p class="label">05 — Contact</p>
+          <h2 id="contact-titre">Une question, un projet, une équipe à rejoindre ? Écrivez-moi.</h2>
+          <a class="btn btn-gold" href="assets/CV_Wiam_Hamadi.pdf" download>Télécharger le CV</a>
+        </div>
+
+        <ul class="contact-links">
+          <li>
+            <a href="mailto:wiamhamadi6@gmail.com">
+              <span class="icon-box" aria-hidden="true">
+                <svg class="icon" viewBox="0 0 24 24"><path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10"/><path d="M3 7l9 6l9 -6"/></svg>
+              </span>
+              <span class="contact-text"><span class="contact-kind">Courriel</span> wiamhamadi6@gmail.com</span>
+            </a>
+          </li>
+          <li>
+            <a href="tel:+15816889572">
+              <span class="icon-box" aria-hidden="true">
+                <svg class="icon" viewBox="0 0 24 24"><path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2"/></svg>
+              </span>
+              <span class="contact-text"><span class="contact-kind">Téléphone</span> 581 688-9572</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://linkedin.com/in/wiam-hamadi" target="_blank" rel="noopener">
+              <span class="icon-box" aria-hidden="true">
+                <svg class="icon" viewBox="0 0 24 24"><path d="M8 11v5"/><path d="M8 8v.01"/><path d="M12 16v-5"/><path d="M16 16v-3a2 2 0 1 0 -4 0"/><path d="M3 7a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v10a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4l0 -10"/></svg>
+              </span>
+              <span class="contact-text"><span class="contact-kind">LinkedIn</span> linkedin.com/in/wiam-hamadi<span class="visually-hidden"> (nouvel onglet)</span></span>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/Wiamhamadi-ia" target="_blank" rel="noopener">
+              <span class="icon-box" aria-hidden="true">
+                <svg class="icon" viewBox="0 0 24 24"><path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"/></svg>
+              </span>
+              <span class="contact-text"><span class="contact-kind">GitHub</span> github.com/Wiamhamadi-ia<span class="visually-hidden"> (nouvel onglet)</span></span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 Wiam Hamadi</p>
+  </footer>
+</body>
+</html>
