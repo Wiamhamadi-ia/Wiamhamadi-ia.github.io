@@ -761,17 +761,17 @@ h1 {
 /* ---------- Expériences : logo à la place de la pastille ---------- */
 
 .xp--logo::before { display: none; }
-.xp--logo { padding-left: .9rem; }
+.xp--logo { padding-left: 1.1rem; }
 .xp-logo {
   position: absolute;
-  left: calc(-2rem + 6.5px - 18px);   /* centré sur le trait vertical (left: 6px, 1px de large) */
-  top: -.35rem;
+  left: calc(-2rem + 6.5px - 22px);   /* centré sur le trait vertical (left: 6px, 1px de large) */
+  top: -.7rem;
   z-index: 1;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 36px;
-  height: 36px;
+  width: 44px;
+  height: 44px;
   padding: 5px;
   background: #FFFFFF;
   border: 1px solid var(--border);
