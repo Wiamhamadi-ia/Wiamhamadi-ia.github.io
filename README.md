@@ -27,6 +27,10 @@ Déposer le fichier sous le nom exact `assets/CV_Wiam_Hamadi.pdf`. Les deux bout
 2. Dans `index.html`, section 03 — Projets, décommenter le bloc « Aperçu » ; ajuster les noms de fichiers et écrire un texte alternatif descriptif (`alt`) pour chaque image.
 3. La visionneuse fonctionne automatiquement (fermeture par bouton, touche Échap ou clic à l'extérieur).
 
+### Après une modification de `styles.css` ou `script.js`
+
+Dans `index.html`, changer le suffixe de version (`styles.css?v=…`, `script.js?v=…`), par exemple avec la date du jour. Sinon, les navigateurs peuvent garder l'ancienne version en cache pendant quelques minutes et afficher la page de travers.
+
 Aperçu local : ouvrir `index.html` dans un navigateur, ou lancer `python3 -m http.server` puis aller sur http://localhost:8000.
 
 ## Redéployer
