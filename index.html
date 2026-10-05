@@ -38,7 +38,7 @@
     <!-- ===================== ACCUEIL ===================== -->
     <section id="accueil" class="hero">
       <div class="wrap">
-        <p class="label">Data science · Intelligence artificielle · Analyse — Québec</p>
+        <p class="label">Data science · Intelligence artificielle · Analyse</p>
         <h1>Wiam Hamadi</h1>
         <p class="hero-lead">Entre des données brutes et une décision éclairée, il y a du nettoyage, des modèles et une saine dose de scepticisme. Je m'occupe des trois.</p>
 
@@ -59,7 +59,7 @@
 
         <div class="hero-actions">
           <a class="btn btn-primary" href="#projets">Voir les projets</a>
-          <a class="btn btn-secondary" href="assets/CV_Wiam_Hamadi.pdf" download>Télécharger le CV</a>
+          <a class="btn btn-secondary" href="assets/CV_Wiam_Hamadi.pdf" target="_blank" rel="noopener">Voir le CV<span class="visually-hidden"> (nouvel onglet)</span></a>
         </div>
       </div>
     </section>
@@ -111,12 +111,12 @@
           <li class="xp xp--plum">
             <div class="xp-grid">
               <div class="xp-body">
-                <p class="meta">2024 – 2025 · Stage de recherche · INAF, Université Laval</p>
-                <h3>Composition nutritionnelle des aliments emballés</h3>
+                <p class="meta">2024 – 2025 · Stage en IA · INAF, Université Laval</p>
+                <h3>Intelligence artificielle appliquée à la nutrition : estimer la composition des aliments emballés</h3>
                 <ul class="tasks">
                   <li><strong>Conception de bout en bout du pipeline</strong> au cœur de l'étude : une méthode qui reconstitue le profil nutritionnel complet d'un aliment à partir de sa seule étiquette, une capacité jusque-là absente des outils disponibles au Canada.</li>
-                  <li><strong>Automatisation par NLP (FoodBERT)</strong> de l'appariement des ingrédients avec la base nutritionnelle de Santé Canada, une tâche auparavant réalisée manuellement, désormais applicable à grande échelle.</li>
-                  <li><strong>Développement d'un modèle d'optimisation</strong> sous contraintes réglementaires (Pyomo) capable de retrouver les proportions des ingrédients, que les fabricants ne divulguent pas.</li>
+                  <li><strong>Automatisation par NLP</strong> de l'appariement des ingrédients avec la base nutritionnelle de Santé Canada, une tâche auparavant réalisée manuellement, désormais applicable à grande échelle.</li>
+                  <li><strong>Développement d'un modèle d'optimisation</strong> sous contraintes réglementaires capable de retrouver les proportions des ingrédients, que les fabricants ne divulguent pas.</li>
                   <li><strong>Valorisation des résultats</strong> auprès d'intervenants non spécialistes, et co-auteure de l'article publié.</li>
                 </ul>
                 <ul class="pills" aria-label="Étiquettes">
@@ -124,7 +124,7 @@
                   <li>Optimisation</li>
                   <li>Analyse des résultats</li>
                 </ul>
-                <p class="tools"><span class="tools-label">Outils</span> Python · spaCy · Transformers (FoodBERT) · Pyomo · IPOPT</p>
+                <p class="tools"><span class="tools-label">Outils</span> Python · spaCy · Transformers · Pyomo · IPOPT</p>
                 <p class="xp-link"><a href="https://doi.org/10.1016/j.cdnut.2026.109387" target="_blank" rel="noopener">Lire l'article (co-auteure, 2026) <span aria-hidden="true">↗</span><span class="visually-hidden"> (nouvel onglet)</span></a></p>
               </div>
 
@@ -138,18 +138,18 @@
           <!-- Entrée 2 : 3D Smart Factory -->
           <li class="xp xp--gold">
             <div class="xp-body">
-              <p class="meta">2023 · Stage · 3D Smart Factory, Maroc</p>
-              <h3>Lecture automatisée de plans mécaniques</h3>
+              <p class="meta">2023 · Stage en science des données · 3D Smart Factory, Maroc</p>
+              <h3>Transformer des plans mécaniques en données exploitables grâce au machine learning</h3>
               <ul class="tasks">
-                <li><strong>Automatisation de la lecture des plans techniques</strong> : là où un employé analysait manuellement chaque plan reçu, le système extrait directement toutes les informations nécessaires à la fabrication.</li>
-                <li><strong>Développement des algorithmes de vision par ordinateur</strong> qui détectent et reconnaissent les symboles, les dimensions et les composants mécaniques (écrous et autres pièces) représentés sur les plans.</li>
-                <li><strong>Combinaison d'apprentissage supervisé et non supervisé</strong> (clustering) pour identifier et regrouper les motifs récurrents.</li>
+                <li><strong>Extraction des informations de fabrication</strong> à partir des plans techniques : là où un employé analysait manuellement chaque plan reçu, le modèle restitue directement les données nécessaires à la fabrication.</li>
+                <li><strong>Développement des algorithmes de vision par ordinateur</strong> qui détectent et reconnaissent les symboles, les dimensions et les composants mécaniques représentés sur les plans.</li>
+                <li><strong>Combinaison d'apprentissage supervisé et non supervisé</strong> pour identifier et regrouper les motifs récurrents.</li>
                 <li><strong>Système conçu pour s'intégrer</strong> au processus de production de l'entreprise, au service du contrôle qualité.</li>
               </ul>
               <ul class="pills" aria-label="Étiquettes">
                 <li>Vision par ordinateur</li>
                 <li>Machine learning</li>
-                <li>Automatisation</li>
+                <li>Analyse d'images</li>
               </ul>
               <p class="tools"><span class="tools-label">Outils</span> Python · OpenCV · scikit-learn</p>
             </div>
@@ -175,8 +175,11 @@
           <h4 class="label label--small">La question</h4>
           <p class="question">Le contenu d'une publication suffit-il à prédire sa performance ?</p>
 
+          <h4 class="label label--small">Pourquoi ce projet</h4>
+          <p class="project-text">Ce projet est né d'une question personnelle : en tant que créatrice d'une page Instagram, je voulais comprendre ce qui suscite l'engagement, et me doter d'un outil pour anticiper la réaction de mon audience avant de publier. Ma page ne comptant pas assez de publications pour entraîner un modèle, j'ai étendu la collecte à des comptes aux thèmes proches.</p>
+
           <h4 class="label label--small">Ce que j'ai fait</h4>
-          <p class="project-text">J'ai constitué un jeu de données original de plus de 4 000 publications issues de 29 comptes, collectées via l'API Instagram Graph (Business Discovery). Chaque publication est représentée par trois familles de variables : l'image, encodée avec CLIP, le texte, encodé avec un modèle d'embeddings multilingue (choisi après avoir mesuré que le modèle anglophone ne distinguait rien sur les légendes arabes), et le moment de publication, encodé de façon cyclique. Une première modélisation sur les interactions brutes (Random Forest, XGBoost, LightGBM) n'a pas battu une simple régression sur le nombre d'abonnés : j'ai donc reformulé la cible en performance relative au compte, comparée à la médiane de ses publications précédentes, et ajouté un modèle Ridge avec réduction PCA. La validation croisée est groupée par compte, pour tester le modèle sur des comptes jamais vus ; elle m'a permis de détecter et de corriger une fuite temporelle dans le centrage des embeddings, qui utilisait des publications futures. Résultat : un signal réel mais faible (AUC de 0,53 contre 0,50 pour le hasard), l'essentiel de la variance s'expliquant par la diffusion algorithmique. L'application Streamlit présente donc une tendance plutôt qu'un chiffre trompeur.</p>
+          <p class="project-text">J'ai constitué un jeu de données original de plus de 4 000 publications issues de 29 comptes, collectées via l'API Instagram Graph (Business Discovery). Chaque publication est représentée par trois familles de variables : l'image, encodée avec CLIP, le texte, encodé avec un modèle d'embeddings multilingue, et le moment de publication, encodé de façon cyclique. Une première modélisation sur les interactions brutes n'a pas battu une simple régression sur le nombre d'abonnés : j'ai donc reformulé la cible en performance relative au compte, comparée à la médiane de ses publications précédentes, et ajouté un modèle Ridge avec réduction PCA. La validation croisée est groupée par compte, pour tester le modèle sur des comptes jamais vus ; elle m'a permis de détecter et de corriger une fuite temporelle dans le centrage des embeddings, qui utilisait des publications futures. Résultat : un signal réel mais faible (AUC de 0,53 contre 0,50 pour le hasard), l'essentiel de la variance s'expliquant par la diffusion algorithmique. L'application Streamlit présente donc une tendance plutôt qu'un chiffre trompeur.</p>
 
           <h4 class="label label--small">Limites et prochaines étapes</h4>
           <ul class="limits">
@@ -206,7 +209,7 @@
           </ul>
           -->
 
-          <p class="tools"><span class="tools-label">Outils</span> Python · API Instagram Graph · CLIP · Sentence-Transformers · scikit-learn · XGBoost · LightGBM · Streamlit</p>
+          <p class="tools"><span class="tools-label">Outils</span> Python · API Instagram Graph · CLIP · Sentence-Transformers · scikit-learn · Streamlit</p>
 
           <p class="project-actions">
             <a class="btn btn-secondary" href="https://github.com/Wiamhamadi-ia/instagram-engagement-predictor" target="_blank" rel="noopener">Voir le code sur GitHub <span aria-hidden="true">↗</span><span class="visually-hidden"> (nouvel onglet)</span></a>
@@ -271,7 +274,7 @@
         <div class="contact-left">
           <p class="label">05 — Contact</p>
           <h2 id="contact-titre">Une question, un projet, une équipe à rejoindre ? Écrivez-moi.</h2>
-          <a class="btn btn-gold" href="assets/CV_Wiam_Hamadi.pdf" download>Télécharger le CV</a>
+          <a class="btn btn-gold" href="assets/CV_Wiam_Hamadi.pdf" target="_blank" rel="noopener">Voir le CV<span class="visually-hidden"> (nouvel onglet)</span></a>
         </div>
 
         <ul class="contact-links">
@@ -292,11 +295,11 @@
             </a>
           </li>
           <li>
-            <a href="https://linkedin.com/in/wiam-hamadi" target="_blank" rel="noopener">
+            <a href="https://www.linkedin.com/in/wiam-hamadi-3a858919a/" target="_blank" rel="noopener">
               <span class="icon-box" aria-hidden="true">
                 <svg class="icon" viewBox="0 0 24 24"><path d="M8 11v5"/><path d="M8 8v.01"/><path d="M12 16v-5"/><path d="M16 16v-3a2 2 0 1 0 -4 0"/><path d="M3 7a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v10a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4l0 -10"/></svg>
               </span>
-              <span class="contact-text"><span class="contact-kind">LinkedIn</span> linkedin.com/in/wiam-hamadi<span class="visually-hidden"> (nouvel onglet)</span></span>
+              <span class="contact-text"><span class="contact-kind">LinkedIn</span> linkedin.com/in/wiam-hamadi-3a858919a<span class="visually-hidden"> (nouvel onglet)</span></span>
             </a>
           </li>
           <li>
