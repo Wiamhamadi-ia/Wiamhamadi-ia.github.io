@@ -8,8 +8,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;1,9..40,400&family=Fraunces:ital,opsz,wght@0,9..144,500;1,9..144,500&display=swap">
-  <link rel="stylesheet" href="styles.css?v=2026-10-05">
-  <script src="script.js?v=2026-10-05" defer></script>
+  <link rel="stylesheet" href="styles.css?v=2026-10-13">
+  <script src="script.js?v=2026-10-13" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#contenu">Aller au contenu</a>
@@ -227,17 +227,18 @@
             <li class="flow-step flow-step--end">App Streamlit</li>
           </ol>
 
-          <!-- TODO: sous-partie « APERÇU » masquée tant que les 3 captures ne sont pas fournies
-               ([CAPTURE PAGE PRÉDIRE], [CAPTURE PAGE EXPLORER], [CAPTURE PAGE LIMITES]).
-               Déposer les images dans assets/, compléter les noms de fichiers et les textes alternatifs, puis décommenter :
-
           <h4 class="label label--small">Aperçu</h4>
+          <figure class="demo">
+            <picture>
+              <source media="(prefers-reduced-motion: reduce)" srcset="assets/projets/instagram/parcours-fin.webp">
+              <img src="assets/projets/instagram/parcours.gif" width="900" height="579" loading="lazy" alt="Parcours complet dans l'application : ajout d'une photo d'arbres en automne, saisie de la légende avec trois hashtags, choix de 9 h comme heure de publication, puis affichage du verdict « Dans la moyenne » et de la fiabilité mesurée.">
+            </picture>
+          </figure>
           <ul class="gallery">
-            <li><a class="shot" href="assets/capture-predire.png"><img src="assets/capture-predire.png" alt="Capture de la page Prédire de l'application : …" loading="lazy"></a></li>
-            <li><a class="shot" href="assets/capture-explorer.png"><img src="assets/capture-explorer.png" alt="Capture de la page Explorer de l'application : …" loading="lazy"></a></li>
-            <li><a class="shot" href="assets/capture-limites.png"><img src="assets/capture-limites.png" alt="Capture de la page Limites de l'application : …" loading="lazy"></a></li>
+            <li><a class="shot" href="assets/projets/instagram/capture-predire-web.webp"><img src="assets/projets/instagram/capture-predire-web.webp" width="1400" height="1896" loading="lazy" alt="Page « Prédire un post » : une photo d'arbres en automne, une légende avec trois hashtags et une publication prévue à 9 h UTC ; verdict « Dans la moyenne », avec une fiabilité mesurée de 0,524 (AUC)."></a></li>
+            <li><a class="shot" href="assets/projets/instagram/capture-explorer-web.webp"><img src="assets/projets/instagram/capture-explorer-web.webp" width="1400" height="1469" loading="lazy" alt="Page « Explorer les résultats » : courbe de l'engagement selon l'heure de publication, avec un pic à 9 h UTC, et graphique de l'effet du nombre de hashtags, où un à cinq hashtags font +9 %."></a></li>
+            <li><a class="shot" href="assets/projets/instagram/capture-limites-web.webp"><img src="assets/projets/instagram/capture-limites-web.webp" width="1400" height="1343" loading="lazy" alt="Page « Comprendre les limites » : un signal faible (AUC de 0,524), une variation dominée par la diffusion algorithmique, des vidéos vues par leur seule miniature et un échantillon de 3 307 publications de 28 comptes."></a></li>
           </ul>
-          -->
 
           <p class="tools"><span class="tools-label">Outils</span> Python · API Instagram Graph · CLIP · Sentence-Transformers · scikit-learn · Streamlit</p>
 

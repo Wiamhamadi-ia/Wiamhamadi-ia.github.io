@@ -19,13 +19,17 @@ assets/      CV et captures d'écran
 
 ### Ajouter le CV
 
-Déposer le fichier sous le nom exact `assets/CV_Wiam_Hamadi.pdf`. Les deux boutons « Télécharger le CV » (accueil et contact) pointent déjà vers ce fichier.
+Déposer le fichier sous le nom exact `assets/CV_Wiam_Hamadi.pdf`. Les deux boutons « Voir le CV » (accueil et contact) pointent déjà vers ce fichier.
 
-### Ajouter les captures de l'application
+### Captures de l'application (projet Instagram)
 
-1. Déposer les images dans `assets/` (par exemple `capture-predire.png`, `capture-explorer.png`, `capture-limites.png`).
-2. Dans `index.html`, section 03 — Projets, décommenter le bloc « Aperçu » ; ajuster les noms de fichiers et écrire un texte alternatif descriptif (`alt`) pour chaque image.
-3. La visionneuse fonctionne automatiquement (fermeture par bouton, touche Échap ou clic à l'extérieur).
+Les fichiers sont dans `assets/projets/instagram/` :
+
+- `capture-*.png` et `parcours.gif` : originaux ;
+- `capture-*-web.webp` : versions allégées (1400 px de large) affichées sur le site ;
+- `parcours-fin.webp` : dernière image du GIF, affichée à la place de l'animation si le visiteur a désactivé les animations.
+
+Pour remplacer une capture : déposer le nouvel original, régénérer la version `-web.webp` (1400 px de large), puis mettre à jour `width`/`height` et le texte alternatif dans `index.html`.
 
 ### Après une modification de `styles.css` ou `script.js`
 

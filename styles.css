@@ -586,15 +586,15 @@ h1 {
   padding: 0;
   border: 0;
   background: transparent;
-  max-width: min(1100px, 94vw);
-  max-height: 92vh;
-  overflow: visible;
+  width: min(1100px, 94vw);
+  max-width: none;
+  max-height: 94vh;
+  overflow: auto;
 }
 .viewer::backdrop { background: rgba(43, 27, 46, .82); }
 .viewer img {
   display: block;
-  max-width: 100%;
-  max-height: 84vh;
+  width: 100%;
   height: auto;
   border-radius: var(--radius);
   background: var(--card);
@@ -603,7 +603,7 @@ h1 {
   display: inline-flex;
   align-items: center;
   gap: .35rem;
-  margin: 0 0 .6rem auto;
+  margin: 0 0 0 auto;
   padding: .5rem .85rem;
   border: 1px solid var(--c-accent);
   border-radius: var(--radius);
@@ -613,7 +613,7 @@ h1 {
   cursor: pointer;
 }
 .viewer-close:focus-visible { outline-color: var(--c-accent); }
-.viewer-bar { display: flex; }
+.viewer-bar { display: flex; position: sticky; top: 0; z-index: 1; padding-bottom: .6rem; }
 
 .project-actions { margin-top: 2rem; }
 
@@ -778,3 +778,13 @@ h1 {
   border-radius: 50%;
 }
 .xp-logo img { display: block; width: 100%; height: 100%; object-fit: contain; }
+
+/* Aperçu : démonstration animée (image fixe si mouvement réduit) */
+.demo {
+  margin-bottom: 1rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--bg);
+}
+.demo img { display: block; width: 100%; height: auto; }
